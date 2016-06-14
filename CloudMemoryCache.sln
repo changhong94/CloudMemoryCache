@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMemoryCache", "CloudMemoryCache\CloudMemoryCache.csproj", "{28B11565-CB65-49C4-8F39-8F84DFACA779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMemoryCache.UnitTest", "CloudMemoryCache.UnitTest\CloudMemoryCache.UnitTest.csproj", "{34BF000E-DD74-48C6-86AE-F6D732ED18D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMemoryCache.Contract", "CloudMemoryCache.Contract\CloudMemoryCache.Contract.csproj", "{CFE984E8-3731-4908-B666-581953F9A7B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMemoryCache.Client", "CloudMemoryCache.Client\CloudMemoryCache.Client.csproj", "{F13792BD-6487-43AA-8F14-406CDC1B833A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMemoryCache.Utils", "CloudMemoryCache.Utils\CloudMemoryCache.Utils.csproj", "{8EF3AA06-6E9D-4997-AF06-4591471C6D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMemoryCache.Common", "CloudMemoryCache.Common\CloudMemoryCache.Common.csproj", "{B35416AE-7F3B-4540-84AB-C6149219A772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMemoryCache.Common.UnitTest", "CloudMemoryCache.Common.UnitTest\CloudMemoryCache.Common.UnitTest.csproj", "{912E7284-3D7E-4458-9D28-4379B84672CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMemoryCache.Utils.UnitTest", "CloudMemoryCache.Utils.UnitTest\CloudMemoryCache.Utils.UnitTest.csproj", "{246E05DA-45A8-4A71-B608-A530E9A6537D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28B11565-CB65-49C4-8F39-8F84DFACA779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B11565-CB65-49C4-8F39-8F84DFACA779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B11565-CB65-49C4-8F39-8F84DFACA779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B11565-CB65-49C4-8F39-8F84DFACA779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BF000E-DD74-48C6-86AE-F6D732ED18D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BF000E-DD74-48C6-86AE-F6D732ED18D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BF000E-DD74-48C6-86AE-F6D732ED18D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BF000E-DD74-48C6-86AE-F6D732ED18D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE984E8-3731-4908-B666-581953F9A7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE984E8-3731-4908-B666-581953F9A7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE984E8-3731-4908-B666-581953F9A7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE984E8-3731-4908-B666-581953F9A7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13792BD-6487-43AA-8F14-406CDC1B833A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13792BD-6487-43AA-8F14-406CDC1B833A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13792BD-6487-43AA-8F14-406CDC1B833A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13792BD-6487-43AA-8F14-406CDC1B833A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF3AA06-6E9D-4997-AF06-4591471C6D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF3AA06-6E9D-4997-AF06-4591471C6D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF3AA06-6E9D-4997-AF06-4591471C6D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF3AA06-6E9D-4997-AF06-4591471C6D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35416AE-7F3B-4540-84AB-C6149219A772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35416AE-7F3B-4540-84AB-C6149219A772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35416AE-7F3B-4540-84AB-C6149219A772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35416AE-7F3B-4540-84AB-C6149219A772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912E7284-3D7E-4458-9D28-4379B84672CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912E7284-3D7E-4458-9D28-4379B84672CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912E7284-3D7E-4458-9D28-4379B84672CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912E7284-3D7E-4458-9D28-4379B84672CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246E05DA-45A8-4A71-B608-A530E9A6537D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246E05DA-45A8-4A71-B608-A530E9A6537D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246E05DA-45A8-4A71-B608-A530E9A6537D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246E05DA-45A8-4A71-B608-A530E9A6537D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4;packages\Unity.2.1.505.0\lib\NET35
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+	EndGlobalSection
+EndGlobal

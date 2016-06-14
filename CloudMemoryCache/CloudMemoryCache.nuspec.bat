@@ -1,0 +1,1 @@
+nuget pack CloudMemoryCache.csproj -IncludeReferencedProjects -Prop Configuration=Release

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>CloudMemoryCache</id>
+        <version>1.0.1</version>
+        <title>CloudMemoryCache - Combines Azure Redis Cache and MemoryCache together</title>
+        <authors>MyOnlinePower</authors>
+        <licenseUrl>https://raw.githubusercontent.com/JamesNK/Newtonsoft.Json/master/LICENSE.md</licenseUrl>
+        <projectUrl>http://cloudmemorycache.azurewebsites.net/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Why CloudMemoryCache?
+
+Well, Azure Redis Cache is introduced as "High performance" here, it's still a network call to get/set a cache. The performance is inevitablely slower than reading from memory. Also from time to time the network connection will be fail. It's rare but it's nature of network. If cache is in memory, it's fast and reliable.
+
+While MemoryCache has its pain points. You don't know what's in the memory now! Believe me, sometimes you do want to know. Another pain is that cache is seperated within process. You have multiple service instances for load-balancing. You think their cache are the same but actual not! Furthermore, after process exits, cache is gone!
+
+So you need a bridge between cloud and memory. This is why CloudMemoryCache born. It's designed to connect the two ends and make your cache logic easier. You may think the concept is simple so it should be easy to make it out. Please continue to read more detailed document then you'll understand how we make it fit for production environment. Complexity comes from detail but we designed it in a way that hide complexity for you. More simple for you to use, less issue you will hit.
+
+CloudMemoryCache is running inside more and more production services and benefitial more and more users. We sincerely welcome new users as you! Enjoy it!</description>
+        <summary>CloudMemoryCache combines Azure Redis Cache and MemoryCache together, getting Pros from both while avoiding Cons of them.
+* Fast
+* Manageable
+* Reliable</summary>
+        <copyright>MyOnlinePower, LLC 2016</copyright>
+        <tags>Cache Azure Redis Memory Performance</tags>
+    </metadata>
+</package>
